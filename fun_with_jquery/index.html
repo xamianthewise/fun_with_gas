@@ -1,0 +1,44 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fun with Jquery and Google Apps Script</title>
+ <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+ <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+<script type="text/javascript">
+ 
+$(document).ready(function(){
+ 
+        $(".slidingDiv").hide();
+        $(".show_hide").show();
+ 
+    $('.show_hide').click(function(){
+    $(".slidingDiv").slideToggle();
+    });
+ 
+});
+ 
+</script>
+<style type="text/css">
+  .slidingDiv {
+    height:300px;
+    background-color: #99CCFF;
+    padding:20px;
+    margin-top:10px;
+    border-bottom:5px solid #3399FF;
+}
+ 
+.show_hide {
+    display:none;
+}
+
+</style>
+
+</head>
+
+<body>
+<a href="#" class="show_hide">Show/hide</a>
+<div class="slidingDiv">
+Fill this space with really interesting content. <a href="#" class="show_hide">hide</a></div>
+</body>
+</html>
