@@ -6,8 +6,8 @@ function doGet(e){
   
   var vPanel = app.createVerticalPanel();
   
-  var myCheckBox = app.createCheckBox('Angel Urena').setFormValue('angelurena').setId('myCheckBox_1').setName('myCheckBox_1');
-  var myCheckBox2 = app.createCheckBox('Simin Li').setFormValue('siminli').setId('myCheckBox_2').setName('myCheckBox_2');
+  var myCheckBox = app.createCheckBox('Xamian Kross').setFormValue('xamiankross').setId('myCheckBox_1').setName('myCheckBox_1');
+  var myCheckBox2 = app.createCheckBox('Eva Mendes').setFormValue('evamendes').setId('myCheckBox_2').setName('myCheckBox_2');
   var theSubmitButton = app.createSubmitButton().setText('Submit Checkboxes');
   
   vPanel.add(myCheckBox);
