@@ -1,5 +1,5 @@
 /*******************************************
-1.  Start Here
+It all starts with doGet() 3
 *******************************************/
 function doGet(e){
   var app = UiApp.createApplication();
